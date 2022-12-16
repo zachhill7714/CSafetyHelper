@@ -5,6 +5,11 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CSafetyHelper", "CSafetyHelper\CSafetyHelper.vcxproj", "{3F4FA3B4-4A5C-4ABD-8A82-03603CB0A87F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestDriver", "TestDriver\TestDriver.vcxproj", "{C1497E25-D253-44CF-80EA-DBFAE2E1086B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3F4FA3B4-4A5C-4ABD-8A82-03603CB0A87F} = {3F4FA3B4-4A5C-4ABD-8A82-03603CB0A87F}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +26,14 @@ Global
 		{3F4FA3B4-4A5C-4ABD-8A82-03603CB0A87F}.Release|x64.Build.0 = Release|x64
 		{3F4FA3B4-4A5C-4ABD-8A82-03603CB0A87F}.Release|x86.ActiveCfg = Release|Win32
 		{3F4FA3B4-4A5C-4ABD-8A82-03603CB0A87F}.Release|x86.Build.0 = Release|Win32
+		{C1497E25-D253-44CF-80EA-DBFAE2E1086B}.Debug|x64.ActiveCfg = Debug|x64
+		{C1497E25-D253-44CF-80EA-DBFAE2E1086B}.Debug|x64.Build.0 = Debug|x64
+		{C1497E25-D253-44CF-80EA-DBFAE2E1086B}.Debug|x86.ActiveCfg = Debug|Win32
+		{C1497E25-D253-44CF-80EA-DBFAE2E1086B}.Debug|x86.Build.0 = Debug|Win32
+		{C1497E25-D253-44CF-80EA-DBFAE2E1086B}.Release|x64.ActiveCfg = Release|x64
+		{C1497E25-D253-44CF-80EA-DBFAE2E1086B}.Release|x64.Build.0 = Release|x64
+		{C1497E25-D253-44CF-80EA-DBFAE2E1086B}.Release|x86.ActiveCfg = Release|Win32
+		{C1497E25-D253-44CF-80EA-DBFAE2E1086B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

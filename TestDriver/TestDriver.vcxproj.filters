@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BulkAllocator.h">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="BulkAllocator.c">
+    <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
