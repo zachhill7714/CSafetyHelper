@@ -15,18 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BulkAllocator.h">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="BulkAllocator.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\SafeMalloc.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CSH\SafeMalloc\SafeMalloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSH\Allocator\BulkAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSH\Assert\Assertions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
