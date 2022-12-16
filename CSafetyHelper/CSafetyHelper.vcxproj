@@ -147,6 +147,10 @@
   <ItemGroup>
     <ClCompile Include="BulkAllocator.c" />
     <ClCompile Include="BulkAllocator.h" />
+    <ClCompile Include="src\SafeMalloc.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CSH\SafeMalloc\SafeMalloc.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

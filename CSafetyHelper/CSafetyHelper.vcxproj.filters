@@ -21,5 +21,13 @@
     <ClCompile Include="BulkAllocator.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\SafeMalloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CSH\SafeMalloc\SafeMalloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
